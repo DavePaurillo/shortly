@@ -10,7 +10,7 @@ const Footer = () => {
     return (
         <div>
             <div className='relative bg-primary-dark-violet'>
-                <Image src={boost} layout='fill' objectFit='cover' />
+                <Image src={boost} alt='boostbg' layout='fill' objectFit='cover' />
                 <div className='p-24 flex flex-col justify-center items-center'>
                     <h1 className='text-3xl font-bold text-white'>Boost your links today</h1>
                     <button className='m-4 py-3 px-8 rounded-full bg-primary-cyan text-white font-bold z-10 hover:cursor-pointer hover:opacity-80'>
@@ -22,7 +22,7 @@ const Footer = () => {
             <footer className='p-16 bg-neutral-very-dark-blue'>
                 <div className='max-w-[1440px] mx-auto flex gap-8'>
                     <div className='mr-auto'>
-                        <Image src={logo} />
+                        <Image src={logo} alt='logo' />
                     </div>
 
                     <div className='px-8'>
@@ -75,16 +75,16 @@ const Footer = () => {
 
                     <ul className='flex gap-4 ml-auto'>
                         <li>
-                            <Image src={fb} />
+                            <Image src={fb} alt='fb' />
                         </li>
                         <li>
-                            <Image src={twt} />
+                            <Image src={twt} alt='twt' />
                         </li>
                         <li>
-                            <Image src={pin} />
+                            <Image src={pin} alt='pin' />
                         </li>
                         <li>
-                            <Image src={ig} />
+                            <Image src={ig} alt='ig' />
                         </li>
                     </ul>
                 </div>

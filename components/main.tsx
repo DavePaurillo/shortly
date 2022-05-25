@@ -101,7 +101,7 @@ const Main = () => {
     return (
         <div className='relative'>
             <div className='relative top-24 max-w-[1440px] mx-auto bg-primary-dark-violet rounded-2xl overflow-hidden'>
-                <Image src={shorten} layout='fill' objectFit='cover' />
+                <Image src={shorten} alt='shorten' layout='fill' objectFit='cover' />
                 <div className='relative h-48 flex items-center justify-center gap-8 px-32 border'>
                     <input
                         type='text'
@@ -140,13 +140,13 @@ const Main = () => {
                     <div className='flex gap-8'>
                         <div className='relative -top-10 p-8 rounded-r-md bg-white'>
                             <div className='absolute -top-10 px-5 py-4 rounded-full text-center bg-primary-dark-violet'>
-                                <Image src={br} />
+                                <Image src={br} alt='br' />
                             </div>
 
                             <h1 className='my-8 text-2xl font-bold tracking-tight'>Brand Recognition</h1>
                             <p className='text-neutral-gray font-semibold'>
-                                Boost your brand recognition with each click. Generic links don't mean a thing. Branded
-                                links help instill confidence in your content.
+                                Boost your brand recognition with each click. Generic links don&apos;t mean a thing.
+                                Branded links help instill confidence in your content.
                             </p>
                         </div>
 
@@ -156,7 +156,7 @@ const Main = () => {
                             after:absolute after:w-8 after:h-2 after:bg-primary-cyan after:block after:-right-8 after:top-2/4'
                         >
                             <div className='absolute -top-10 px-5 py-4 rounded-full text-center bg-primary-dark-violet'>
-                                <Image src={dr} />
+                                <Image src={dr} alt='dr' />
                             </div>
                             <h1 className='my-8 text-2xl font-bold tracking-tight'>Detailed Records</h1>
                             <p className='text-neutral-gray font-semibold'>
@@ -167,7 +167,7 @@ const Main = () => {
 
                         <div className='relative top-10 p-8 rounded-r-md bg-white'>
                             <div className='absolute -top-10 px-5 py-4 rounded-full text-center bg-primary-dark-violet'>
-                                <Image src={fc} />
+                                <Image src={fc} alt='fc' />
                             </div>
                             <h1 className='my-8 text-2xl font-bold tracking-tight'>Fully Customizable</h1>
                             <p className='text-neutral-gray font-semibold'>

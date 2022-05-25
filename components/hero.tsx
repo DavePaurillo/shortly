@@ -8,7 +8,7 @@ const Hero = () => {
             <div>
                 <h1 className='text-8xl font-bold tracking-tight'>More than just shorter links</h1>
                 <p className='my-2 text-neutral-gray font-semibold text-2xl leading-tight tracking-wider'>
-                    Build your brand's recognition and get detailed insights on how your links are performing.
+                    Build your brand&apos;s recognition and get detailed insights on how your links are performing.
                 </p>
                 <button className='py-3 px-8 mt-8 rounded-full bg-primary-cyan text-xl text-white font-bold hover:opacity-50 hover:cursor-pointer'>
                     Get Started
